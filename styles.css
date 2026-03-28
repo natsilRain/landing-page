@@ -2,15 +2,17 @@
     margin: 0;
     padding: 0;
     font-family: roboto, sans-serif;
+    box-sizing: border-box;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .links {
@@ -20,4 +22,52 @@ header {
 
 a {
     text-decoration: none;
+}
+
+.mountain-image {
+    max-width: 400px;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.hero1 {
+    max-width: 500px;
+}
+
+.hero1 > h1 {
+    padding-bottom: 20px;
+}
+
+.hero1 > p {
+    padding-bottom: 20px;
+}
+
+.random-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.info-panel {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.panel > img {
+    max-width: 125px;
+    border: 4px solid lightseagreen;
+    border-radius: 16px;
+}
+
+.panel {
+    max-width: 125px;
+}
+
+.panel > p {
+    text-align: center;
 }
