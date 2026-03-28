@@ -87,3 +87,11 @@ a {
 .quote-by {
     text-align: right;
 }
+
+.action-call {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
