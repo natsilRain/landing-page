@@ -71,3 +71,19 @@ a {
 .panel > p {
     text-align: center;
 }
+
+.quote-panel {
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.quote {
+    text-align: left;
+}
+
+.quote-by {
+    text-align: right;
+}
